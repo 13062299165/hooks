@@ -1,0 +1,36 @@
+{
+    "search.exclude": {
+     "/node_modules": true,
+     "dist": true,
+     "pnpm-lock.sh": true
+     },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true 
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.validate": ["css", "less"],
+    "[javascript]": {
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+    "[javascriptreact]": {
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+    "[typescript]": {
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+    "[typescriptreact]": {
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+    "[json]": {
+     "editor.defaultFormatter": "vscode.json-language-features"
+     },
+    "[html]": {
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+    "[markdown]": {
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+     }
+}
