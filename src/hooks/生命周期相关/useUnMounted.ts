@@ -6,7 +6,7 @@ export default function useUnMounted(fn:()=>void){
 	const persistFn = usePersistFn(fn);
 	useEffect(()=>{
 		return ()=>{
-			if(toString.call(fn) === "object function"){
+			if(typeof fn === "function"){
 				persistFn();
 			}
 		};
